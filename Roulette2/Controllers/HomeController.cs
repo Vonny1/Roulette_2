@@ -12,6 +12,8 @@ using Roulette.DataAccess.Context.Models;
 
 namespace Roulette.Controllers
 {
+    [ApiController]
+    [Route("[home]")]
     public class HomeController : Controller
     {
         public string Index()
@@ -19,54 +21,28 @@ namespace Roulette.Controllers
             string text = "";
 
             //Добавление моделей
-            //using (var db = new RouletteContext())
-            //{
-            //    Tier tier1 = new Tier { Name = "Good", Value = 60 };
-            //    Tier tier2 = new Tier { Name = "Normal", Value = 30 };
-            //    Tier tier3 = new Tier { Name = "Bad", Value = 10 };
+            using (var db = new RouletteContext())
+            {
+                //Title title1 = new Title { Name = "Bad_Title_2", Description = "is bad_2" };
+                //db.Add(title1);
+                //db.SaveChanges();
 
-            //    db.Add(tier1);
-            //    db.Add(tier2);
-            //    db.Add(tier3);
-            //    db.SaveChanges();
-
-
-
-            //    Title title1 = new Title { Name = "Good_Title", Description = "is good" };
-            //    Title title2 = new Title { Name = "Normal_Title", Description = "is normal" };
-            //    Title title3 = new Title { Name = "Bad_Title", Description = "is bad" };
-
-            //    Title title4 = new Title { Name = "Good_Title_2", Description = "is good_2" };
-            //    db.Add(title1);
-            //    db.Add(title2);
-            //    db.Add(title3);
-            //    db.Add(title4);
-            //    db.SaveChanges();
-
-            //}
+            }
 
             //Редактирование моделей
-            //using (var db = new RouletteContext())
-            //{
-            //    Tier good = db.Tiers
-            //        .Where(c => c.Name == "Good")
-            //        .FirstOrDefault();
+            using (var db = new RouletteContext())
+            {
+                Title titleBad2 = db.Titles
+                    .Where(c => c.Name == "Bad_Title_2")
+                    .FirstOrDefault();
 
-            //    List<Title> normalTitles = db.Titles
-            //        .Where(c => c.Name == "Normal_Title")
-            //        .ToList();
+                Tier tierBad = db.Tiers
+                    .Where(c => c.Name == "Bad")
+                    .FirstOrDefault();
+                tierBad.Titles.Add(titleBad2);
 
-            //    Title title = db.Titles
-            //        .Where(c => c.Name == "Good_Title")
-            //        .FirstOrDefault();
-            //    //foreach (var i in normalTitles)
-            //    //{
-            //    //    good.Titles.Add(i);
-            //    //}
-
-            //    good.Titles.Add(title);
-            //    db.SaveChanges();
-            //}
+                db.SaveChanges();
+            }
 
 
 
@@ -86,10 +62,6 @@ namespace Roulette.Controllers
 
 
             }
-
-
-
-
             return text;
         }
     }
