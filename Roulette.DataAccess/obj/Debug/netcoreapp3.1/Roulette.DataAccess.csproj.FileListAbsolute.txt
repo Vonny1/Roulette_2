@@ -1,0 +1,50 @@
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette_4.db
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.deps.json
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.json
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.dev.json
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfo.cs
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+C:\Users\Константин\Desktop\Новая папка\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.genruntimeconfig.cache
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette_4.db
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.deps.json
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.json
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.dev.json
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfo.cs
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+C:\Users\Константин\Desktop\Новая папка\Roulette\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.genruntimeconfig.cache
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette_4.db
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.deps.json
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.json
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.dev.json
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csprojAssemblyReference.cache
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfoInputs.cache
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfo.cs
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csproj.CoreCompileInputs.cache
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+D:\efimov\Projects\Roulette\project\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.genruntimeconfig.cache
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfoInputs.cache
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfo.cs
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csproj.CoreCompileInputs.cache
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette_4.db
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.deps.json
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.json
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.dev.json
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.genruntimeconfig.cache
+D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csprojAssemblyReference.cache
