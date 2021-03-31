@@ -38,11 +38,11 @@ namespace Roulette.Controllers
     //}
     #endregion
     [ApiController]
-    [Route("[api/controller]")]
+    [Route("[controller]")]
     public class TitleController : Controller
     {
         [HttpGet]
-        public string Get()
+        public string GetAll()
         {
             string text = "";
             //Вывод моделей
@@ -56,6 +56,17 @@ namespace Roulette.Controllers
                 }
             }
             return text;
+        }
+        [HttpGet("{id}")]
+        public string GetById(int id)
+        {
+            using (var db = new RouletteContext())
+            {
+                Title title = db.Titles.FirstOrDefault(x => x.Id == id);
+                string jsonTitle = JsonSerializer.Serialize<Title>(title);
+                return jsonTitle;
+
+            }
         }
     }
 }
