@@ -25,7 +25,7 @@ namespace Roulette.DataAccess.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite($"DataSource={AppContext.BaseDirectory}\\Roulette_4.db");
+                optionsBuilder.UseSqlite($"DataSource=D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette_4.db");
             }
         }
 

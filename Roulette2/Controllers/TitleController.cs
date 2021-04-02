@@ -38,7 +38,7 @@ namespace Roulette.Controllers
     //}
     #endregion
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TitleController : Controller
     {
         [HttpGet]
@@ -57,7 +57,7 @@ namespace Roulette.Controllers
             }
             return text;
         }
-        [HttpGet("id/{id}")]
+        [HttpGet("get/{id}")]
         public string GetById(int id)
         {
             using (var db = new RouletteContext())
@@ -68,7 +68,7 @@ namespace Roulette.Controllers
 
             }
         }
-        [HttpPost]
+        [HttpPost("post")]
         public async Task<ActionResult<Title>> Post(Title title)
         {
             using (var db = new RouletteContext())
@@ -83,17 +83,23 @@ namespace Roulette.Controllers
 
             }
         }
+        [HttpDelete("delete")]
+        public async Task<ActionResult<Title>> Delete(Title title)
+        {
+            using (var db = new RouletteContext())
+            {
+                if (title == null)
+                {
+                    return BadRequest();
+                }
+                db.Titles.Remove(title);
+                await db.SaveChangesAsync();
+                return Ok(title);
 
-        //public  string Post(Title title)
-        //{
-        //    using (var db = new RouletteContext())
-        //    {
 
-        //        db.Titles.Add(title);
-        //        db.SaveChanges();
-        //        return "nigga";
-        //    }
-        //}
+            }
+        }
+
 
     }
 }
