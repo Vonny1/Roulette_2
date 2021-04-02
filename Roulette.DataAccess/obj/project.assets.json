@@ -1175,24 +1175,25 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.EntityFrameworkCore.Analyzers >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.4"
     ]
   },
   "packageFolders": {
-    "D:\\Users\\vladislav.efimov\\.nuget\\packages\\": {}
+    "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
+      "projectUniqueName": "G:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
       "projectName": "Roulette.DataAccess",
-      "projectPath": "D:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
-      "packagesPath": "D:\\Users\\vladislav.efimov\\.nuget\\packages\\",
-      "outputPath": "D:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\obj\\",
+      "projectPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\",
+      "outputPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Users\\vladislav.efimov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vladislav.Efimov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1218,6 +1219,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": {
+            "target": "Package",
+            "version": "[5.0.4, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.4, )"

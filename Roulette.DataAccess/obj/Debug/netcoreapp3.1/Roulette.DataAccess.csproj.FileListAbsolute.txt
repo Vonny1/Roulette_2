@@ -48,3 +48,16 @@ D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulet
 D:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
 D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.genruntimeconfig.cache
 D:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csprojAssemblyReference.cache
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette_4.db
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.deps.json
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.json
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.runtimeconfig.dev.json
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.dll
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\bin\Debug\netcoreapp3.1\Roulette.DataAccess.pdb
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csprojAssemblyReference.cache
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfoInputs.cache
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.AssemblyInfo.cs
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.csproj.CoreCompileInputs.cache
+G:\efimov\Projects\Roulette_2\Roulette.DataAccess\obj\Debug\netcoreapp3.1\Roulette.DataAccess.genruntimeconfig.cache

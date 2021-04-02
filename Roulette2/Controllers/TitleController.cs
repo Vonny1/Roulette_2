@@ -57,7 +57,7 @@ namespace Roulette.Controllers
             }
             return text;
         }
-        [HttpGet("{id}")]
+        [HttpGet("id/{id}")]
         public string GetById(int id)
         {
             using (var db = new RouletteContext())
@@ -68,5 +68,32 @@ namespace Roulette.Controllers
 
             }
         }
+        [HttpPost]
+        public async Task<ActionResult<Title>> Post(Title title)
+        {
+            using (var db = new RouletteContext())
+            {
+                if (title == null)
+                {
+                    return BadRequest();
+                }
+                db.Titles.Add(title);
+                await db.SaveChangesAsync();
+                return Ok(title);
+
+            }
+        }
+
+        //public  string Post(Title title)
+        //{
+        //    using (var db = new RouletteContext())
+        //    {
+
+        //        db.Titles.Add(title);
+        //        db.SaveChanges();
+        //        return "nigga";
+        //    }
+        //}
+
     }
 }

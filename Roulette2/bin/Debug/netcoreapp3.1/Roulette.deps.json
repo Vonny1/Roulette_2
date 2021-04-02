@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Roulette/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.4",
           "Roulette.DataAccess": "1.0.0",
@@ -750,6 +751,7 @@
       },
       "Roulette.DataAccess/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4"
         },
         "runtime": {

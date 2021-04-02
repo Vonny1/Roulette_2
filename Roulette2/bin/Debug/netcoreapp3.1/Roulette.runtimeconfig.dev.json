@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "D:\\Users\\vladislav.efimov\\.dotnet\\store\\|arch|\\|tfm|",
-      "D:\\Users\\vladislav.efimov\\.nuget\\packages"
+      "C:\\Users\\Vladislav.Efimov\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vladislav.Efimov\\.nuget\\packages"
     ]
   }
 }
