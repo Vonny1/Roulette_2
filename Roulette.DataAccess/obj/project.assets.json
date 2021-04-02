@@ -1181,19 +1181,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\": {}
+    "C:\\Users\\vladi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
+      "projectUniqueName": "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
       "projectName": "Roulette.DataAccess",
-      "projectPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\",
-      "outputPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette.DataAccess\\obj\\",
+      "projectPath": "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
+      "outputPath": "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vladislav.Efimov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
