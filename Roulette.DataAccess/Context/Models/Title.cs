@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 #nullable disable
 
@@ -12,7 +12,6 @@ namespace Roulette.DataAccess.Context.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public long? TierId { get; set; }
-
         [JsonIgnore]
         public virtual Tier Tier { get; set; }
     }

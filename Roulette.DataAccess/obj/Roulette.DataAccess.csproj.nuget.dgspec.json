@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj": {}
+    "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj": {
+    "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
+        "projectUniqueName": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
         "projectName": "Roulette.DataAccess",
-        "projectPath": "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "D:\\C# projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\obj\\",
+        "projectPath": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\",
+        "outputPath": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vladislav.Efimov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Roulette.DataAccess.Context;
-using System.Text.Json;
+using Newtonsoft.Json;
 using Roulette.DataAccess.Context.Models;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace Roulette.Controllers
 {
@@ -24,10 +24,16 @@ namespace Roulette.Controllers
             //Вывод моделей
             using (var db = new RouletteContext())
             {
-                List<Tier> allTiers = db.Tiers.ToList();
+                List<Tier> allTiers = db.Tiers.Include("Titles").ToList();
                 foreach (Tier i in allTiers)
                 {
-                    string jsonTier = JsonSerializer.Serialize<Tier>(i);
+                    string jsonTier = JsonConvert.SerializeObject(i, Formatting.Indented,
+    new JsonSerializerSettings()
+    {
+        ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+        MaxDepth = 2
+    }
+);
                     text += jsonTier;
                 }
             }
@@ -38,8 +44,14 @@ namespace Roulette.Controllers
         {
             using (var db = new RouletteContext())
             {
-                Tier tier = db.Tiers.FirstOrDefault(x => x.Id == id);
-                string jsonTier = JsonSerializer.Serialize<Tier>(tier);
+                Tier tier = db.Tiers.Include("Titles").FirstOrDefault(x => x.Id == id);
+                string jsonTier = JsonConvert.SerializeObject(tier, Formatting.Indented,
+new JsonSerializerSettings()
+{
+    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+    MaxDepth = 1
+}
+);
                 return jsonTier;
             }
         }
