@@ -35,7 +35,6 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.4",
           "Newtonsoft.Json": "13.0.1",
-          "Roulette.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -759,19 +758,6 @@
         },
         "compile": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        }
-      },
-      "Roulette.DataAccess/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.4",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "runtime": {
-          "Roulette.DataAccess.dll": {}
-        },
-        "compile": {
-          "Roulette.DataAccess.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2620,11 +2606,6 @@
       "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
       "path": "system.text.json/5.0.0",
       "hashPath": "system.text.json.5.0.0.nupkg.sha512"
-    },
-    "Roulette.DataAccess/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

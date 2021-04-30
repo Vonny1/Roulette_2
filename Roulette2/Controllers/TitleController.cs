@@ -6,9 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Roulette.DataAccess.Context;
 using Newtonsoft.Json;
-using Roulette.DataAccess.Context.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Roulette.Controllers

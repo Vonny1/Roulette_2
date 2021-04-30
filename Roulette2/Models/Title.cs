@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 #nullable disable
 
-namespace Roulette.DataAccess.Context.Models
+namespace Roulette.Models
 {
     public partial class Title
     {

@@ -434,21 +434,6 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
-      },
-      "Roulette.DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.4",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Roulette.DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Roulette.DataAccess.dll": {}
-        }
       }
     }
   },
@@ -1222,11 +1207,6 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Roulette.DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../Roulette.DataAccess/Roulette.DataAccess.csproj",
-      "msbuildProject": "../Roulette.DataAccess/Roulette.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1234,8 +1214,7 @@
       "Microsoft.EntityFrameworkCore.Analyzers >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
-      "Newtonsoft.Json >= 13.0.1",
-      "Roulette.DataAccess >= 1.0.0"
+      "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {
@@ -1264,11 +1243,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj": {
-              "projectPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

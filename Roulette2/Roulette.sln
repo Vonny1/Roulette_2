@@ -4,11 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette", "Roulette.csproj", "{CEA3AEF0-C4E8-4BF8-8D2B-410AA1A04D7F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B1F87AB2-B539-4C00-906C-529F085D3819} = {B1F87AB2-B539-4C00-906C-529F085D3819}
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette.DataAccess", "..\Roulette.DataAccess\Roulette.DataAccess.csproj", "{B1F87AB2-B539-4C00-906C-529F085D3819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +15,6 @@ Global
 		{CEA3AEF0-C4E8-4BF8-8D2B-410AA1A04D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEA3AEF0-C4E8-4BF8-8D2B-410AA1A04D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEA3AEF0-C4E8-4BF8-8D2B-410AA1A04D7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1F87AB2-B539-4C00-906C-529F085D3819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1F87AB2-B539-4C00-906C-529F085D3819}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1F87AB2-B539-4C00-906C-529F085D3819}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1F87AB2-B539-4C00-906C-529F085D3819}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
