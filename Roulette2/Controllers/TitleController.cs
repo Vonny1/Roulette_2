@@ -42,7 +42,7 @@ namespace Roulette.Controllers
     [Route("api/[controller]")]
     public class TitleController : Controller
     {
-        [HttpGet]
+        [HttpGet("get")]
         public string GetAll()
         {
             string text = "";
@@ -50,11 +50,7 @@ namespace Roulette.Controllers
             using (var db = new RouletteContext())
             {
                 List<Title> allTitles = db.Titles.Include("Tier").ToList();
-                foreach (Title i in allTitles)
-                {
-                    string jsonTitle = JsonConvert.SerializeObject(i);
-                    text += jsonTitle;
-                }
+                text = JsonConvert.SerializeObject(allTitles, Formatting.Indented);
             }
             return text;
         }

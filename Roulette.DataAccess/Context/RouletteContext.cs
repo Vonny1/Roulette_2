@@ -25,7 +25,7 @@ namespace Roulette.DataAccess.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite($"DataSource=G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette_4.db");
+                optionsBuilder.UseSqlite($"DataSource=G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette_4.db");
             }
         }
 

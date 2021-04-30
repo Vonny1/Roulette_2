@@ -1244,11 +1244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette2\\Roulette.csproj",
+      "projectUniqueName": "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette2\\Roulette.csproj",
       "projectName": "Roulette",
-      "projectPath": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette2\\Roulette.csproj",
+      "projectPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette2\\Roulette.csproj",
       "packagesPath": "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\",
-      "outputPath": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette2\\obj\\",
+      "outputPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vladislav.Efimov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1265,8 +1265,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj": {
-              "projectPath": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj"
+            "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj": {
+              "projectPath": "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj"
             }
           }
         }

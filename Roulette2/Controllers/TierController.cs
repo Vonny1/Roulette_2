@@ -17,7 +17,7 @@ namespace Roulette.Controllers
     [Route("api/[controller]")]
     public class TierController : Controller
     {
-        [HttpGet]
+        [HttpGet("get")]
         public string GetAll()
         {
             string text = "";
@@ -25,17 +25,11 @@ namespace Roulette.Controllers
             using (var db = new RouletteContext())
             {
                 List<Tier> allTiers = db.Tiers.Include("Titles").ToList();
-                foreach (Tier i in allTiers)
+                text = JsonConvert.SerializeObject(allTiers, Formatting.Indented, new JsonSerializerSettings()
                 {
-                    string jsonTier = JsonConvert.SerializeObject(i, Formatting.Indented,
-    new JsonSerializerSettings()
-    {
-        ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
-        MaxDepth = 2
-    }
-);
-                    text += jsonTier;
-                }
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                    MaxDepth = 2
+                }); 
             }
             return text;
         }

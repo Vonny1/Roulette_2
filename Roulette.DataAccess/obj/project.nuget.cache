@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "65ZXolwgTQ4xV7VIleMSbexzqM5WqRGEN+EgCGxA+YkLjLJbRbsQSie+Kgm3aGXP2NcaKsygNJF6kgiXvPQoNA==",
+  "dgSpecHash": "eniEGqGe2KGzSlcVcHeS+nbhbUr9ThjR3I+4oWYaBRgRNwxJev0RGkxmXsjI8LZuqkIHyM+BdJz2QQOSe+04Tw==",
   "success": true,
-  "projectFilePath": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
+  "projectFilePath": "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette.DataAccess\\Roulette.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

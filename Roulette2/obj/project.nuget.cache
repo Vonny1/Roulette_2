@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jY1RFSDIeWbs55mD5KVCbI+MXzWY31fFsKWgs2MXTOvmj6f/Zww73lok7pL5V8G6C/+GNsj0HxLH0DabgLniow==",
+  "dgSpecHash": "+k3vN0qkSeL2HPHcXz9i9Jibm3QmIhoNZvMYEshfYwPxJuNX9o/bJyfbPX9ZX4F4xwYIA7Paajcauza8Opgocg==",
   "success": true,
-  "projectFilePath": "G:\\efimov\\Projects\\NEW_Roulette_2\\Roulette_2\\Roulette2\\Roulette.csproj",
+  "projectFilePath": "G:\\efimov\\Projects\\Roulette_2\\Roulette_2\\Roulette2\\Roulette.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vladislav.Efimov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
